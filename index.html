@@ -8,10 +8,11 @@
 </head>
 <body>
     <div class="container">
-
+        <div class="main">
         <!-- header -->
         <h1>Password Generator</h1>
 
+        
         <!-- display container -->
         <div class="display-container">
             <input type="text" id="password" class="password" readonly placeholder="Password">
@@ -33,22 +34,22 @@
             <input type="range" id="slider" min="1" max="20" step="1" class="slider">
 
              <!-- checkbox label container -->
-            <div>
+            <div class="checkbox">
                 <input type="checkbox" id="upperCase">
                 <label for="upperCase">Include UpperCase Letters</label>
             </div>  
 
-            <div>
+            <div class="checkbox">
                 <input type="checkbox" id="lowerCase">
                 <label for="lowerCase">Include LowerCase Letters</label>
             </div>
 
-            <div>
+            <div class="checkbox">
                 <input type="checkbox" id="numbers">
                 <label for="numbers">Include Numbers</label>
             </div>
             
-            <div>
+            <div class="checkbox">
                 <input type="checkbox" id="symbols">
                 <label for="symbols">Include Symbols</label>
             </div>
@@ -62,6 +63,8 @@
             <!-- generate password button -->
             <button id="generateBtn" class="generateBtn">Generate Password</button>
         </div>
+
+         </div>
 
     </div>
 

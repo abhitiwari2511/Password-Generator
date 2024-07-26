@@ -17,6 +17,7 @@ let password = "";
 let passLength = 10;
 let checkInitial = 1;
 setLength();
+colorIndicator("#ccc");
 
 // set password length
 function setLength() {
@@ -27,7 +28,7 @@ function setLength() {
 // color indicator
 function colorIndicator(color) {
     dataIndicator.style.backgroundColor = color;
-    dataIndicator.style.boxShadow = '10px 10px 5px #888888';
+    dataIndicator.style.boxShadow = '0px 0px 10px #888888';
 }
 
 // getting random integer
